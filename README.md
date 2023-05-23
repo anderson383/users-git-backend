@@ -35,8 +35,19 @@ $ npm run start:prod
 $ cd ./db
 ```
 
-### 1. Construir la imagen Docker
+### 2. Construir la imagen Docker
 
 ```bash
 $ docker compose up
 ```
+
+
+### 3. Enpoints a consultar y validar
+
+```bash
+#Para listar [get]
+/api/user/list
+
+
+#Para crear [post]
+/api/user
